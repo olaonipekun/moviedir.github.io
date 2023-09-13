@@ -6,7 +6,7 @@ import Body from './component/Body'
 function App() {
   return (
     <div className="App">
-      <div className='container mx-auto h-screen w-full dark:bg-slate-800 dark:text-white grid col-auto'>
+      <div className=' grid grid-cols-1 mx-auto dark:bg-slate-800 dark:text-white'>
         <Header />
         <Body />
         <Footer />
