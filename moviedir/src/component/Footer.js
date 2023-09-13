@@ -18,11 +18,6 @@ function Footer() {
       name: "TV Series",
       link: "/TV"
     },
-    {
-      icon: "fas fa-search",
-      name: "Search",
-      link: "/search"
-    },
   ];
   return (
     <>
