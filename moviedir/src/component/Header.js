@@ -2,7 +2,13 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <>
+      <div className='container-fluid'>
+        <div className='grid grid-cols-1'>
+          The Movie Database
+        </div>
+      </div>
+    </>
   )
 }
 
