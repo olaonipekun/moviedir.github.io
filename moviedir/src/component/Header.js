@@ -5,7 +5,7 @@ function Header(props) {
   return (
     <>
       <div className='container-fluid'>
-        <div className='grid grid-cols-1'>
+        <div className='grid-cols-1'>
           The Movie Database
           <img src={source} alt='' className='object-fill' />
         </div>
