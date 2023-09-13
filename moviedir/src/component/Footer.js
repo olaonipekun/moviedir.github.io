@@ -1,29 +1,29 @@
 import React from 'react'
 
 function Footer() {
-    const Footer = () => {
-        const data = [
-          {
-            icon: "fas fa-fire-alt",
-            name: "Trending",
-            link: "/"
-          },
-          {
-            icon: "fas fa-film",
-            name: "Movies",
-            link: "/movies"
-          },
-          {
-            icon: "fas fa-tv",
-            name: "TV Series",
-            link: "/TV"
-          },
-          {
-            icon: "fas fa-search",
-            name: "Search",
-            link: "/search"
-          },
-        ]};
+
+  const data = [
+    {
+      icon: "fas fa-fire-alt",
+      name: "Trending",
+      link: "/"
+    },
+    {
+      icon: "fas fa-film",
+      name: "Movies",
+      link: "/movies"
+    },
+    {
+      icon: "fas fa-tv",
+      name: "TV Series",
+      link: "/TV"
+    },
+    {
+      icon: "fas fa-search",
+      name: "Search",
+      link: "/search"
+    },
+  ];
   return (
     <>
     <div className="container-fluid">
