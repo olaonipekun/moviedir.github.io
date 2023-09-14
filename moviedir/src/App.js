@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className='min-h-screen flex bg-blue-500'>
-        <div className='grid'>
+        <div className='grid grid-rows-3 grid-cols-3'>
           <Header />
           <Body />
           <Footer />
