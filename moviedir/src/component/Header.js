@@ -7,7 +7,7 @@ function Header(props) {
     <>
       <div className=''>
         <div className={span}>
-          The Movie Database Everyone
+          The Movie Database again
           <img src={source} alt='' className='object-fill' />
         </div>
       </div>
