@@ -2,6 +2,7 @@ import React from 'react'
 
 function Header(props) {
   const source = props.source
+  const span = props.span
   return (
     <>
       <div className=''>
