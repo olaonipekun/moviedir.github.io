@@ -21,9 +21,9 @@ function Footer() {
   ];
   return (
     <>
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-12 text-center bg-dark footer">
+    <div className="">
+      <div className="">
+        <div className="">
           {data.map((Val) => {
             return (
               <>
