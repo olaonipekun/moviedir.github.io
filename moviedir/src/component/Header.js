@@ -5,8 +5,8 @@ function Header(props) {
   return (
     <>
       <div className=''>
-        <div className=''>
-          The Movie Database
+        <div className={span}>
+          The Movie Database Everyone
           <img src={source} alt='' className='object-fill' />
         </div>
       </div>
