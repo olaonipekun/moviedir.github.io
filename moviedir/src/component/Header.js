@@ -4,8 +4,8 @@ function Header(props) {
   const source = props.source
   return (
     <>
-      <div className='container-fluid'>
-        <div className='row'>
+      <div className=''>
+        <div className=''>
           The Movie Database
           <img src={source} alt='' className='object-fill' />
         </div>

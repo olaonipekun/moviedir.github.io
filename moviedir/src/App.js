@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className='min-h-screen flex bg-blue-500'>
         <div className='grid grid-rows-3 grid-cols-3'>
-          <Header />
+          <Header className="row-span-3" />
           <Body />
           <Footer />
         </div>

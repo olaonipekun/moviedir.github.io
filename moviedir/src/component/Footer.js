@@ -27,10 +27,10 @@ function Footer() {
           {data.map((Val) => {
             return (
               <>
-                <button className="col-sm-2 col-md-2 btn btn-dark">
+                <button className="">
                   <i className={`${Val.icon}`} id="fire"></i>
                   <br />
-                  <h5 className="pt-1 fs-6">{Val.name}</h5>
+                  <h5 className="">{Val.name}</h5>
                 </button>
               </>
             );
